@@ -9,7 +9,19 @@
 			rel="stylesheet"
 			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
 			crossorigin="anonymous" />
-		<link rel="stylesheet" href="../css/reset.css" />
+
+		<style>
+			.aktif {
+				display: block;
+			}
+
+			.sembunyi {
+				display: none;
+			}
+		</style>
+
+		<link rel="stylesheet" href="../css/kelas-online.css" />
+		<link rel="stylesheet" href="../css/global.css" />
 	</head>
 	<body>
 		<!-- Navbar -->
@@ -58,177 +70,387 @@
 		</nav>
 		<!-- Akhir Navbar -->
 
-		<div class="d-flex align-items-start container mt-3">
+		<div class="d-flex align-items-start container mt-3 gap-2">
 			<!-- Filter -->
-			<div class="filter"></div>
 			<img src="../img/filter.svg" alt="" />
 			<!-- Akhir Filter -->
 			<!-- List-card -->
-			<div class="">
-				<div class="container d-flex justify-content-between mb-3">
-					<a class="card ms-2 text-decoration-none" href="details.html">
-						<img src="../img/card-01.svg" class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5>Digital Marketing</h5>
-							<div class="d-flex align-items-center">
-								<img src="../img/profile.svg" alt="" />
-								<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
+			<div class="list-card ms-3">
+				<div class="menu-card">
+					<div class="card1 box-card">
+						<div class="card-main">
+							<a class="card-item" href="details.html">
+								<img src="../img/card-01.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Digital Marketing</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Rp.120.000</p>
+										<p>Rp.150.000</p>
+									</div>
+								</div>
+							</a>
+							<div class="card-item">
+								<img src="../img/card-02.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Public Speaking</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Wisnusesa</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Rp.120.000</p>
+										<p>Rp.150.000</p>
+									</div>
+								</div>
+							</div>
+							<div class="card-item">
+								<img src="../img/card-03.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Basic Data Analyst</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Hilal</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Rp.120.000</p>
+										<p>Rp.150.000</p>
+									</div>
+								</div>
+							</div>
+							<div class="card-item">
+								<img src="../img/card-04.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Personal Branding</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Dandi</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Rp.120.000</p>
+										<p>Rp.150.000</p>
+									</div>
+								</div>
 							</div>
 						</div>
-					</a>
-					<div class="card ms-2">
-						<img src="../img/card-02.svg" class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5>Public Speaking</h5>
-							<div class="d-flex align-items-center">
-								<img src="../img/profile.svg" alt="" />
-								<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
+
+						<div class="card-main">
+							<div class="card-item" href="details.html">
+								<img src="../img/card-05.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Graphic Design Essentials</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Dina Arinanda Safitri</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Rp.120.000</p>
+										<p>Rp.150.000</p>
+									</div>
+								</div>
+							</div>
+							<div class="card-item">
+								<img src="../img/card-06.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Social Media Marketing Strategies</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Ayu Mintarsih</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Rp.120.000</p>
+										<p>Rp.150.000</p>
+									</div>
+								</div>
+							</div>
+							<div class="card-item">
+								<img src="../img/card-07.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Discover Your Hidden Talents: Unleash Your Potential</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Putri Vadia Dhamayanti</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Rp.120.000</p>
+										<p>Rp.150.000</p>
+									</div>
+								</div>
+							</div>
+							<div class="card-item">
+								<img src="../img/card-08.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>online sales training</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Imroatus Sholihah</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Gratis</p>
+										<!-- <p>Rp.150.000</p> -->
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="card-main">
+							<div class="card-item" href="details.html">
+								<img src="../img/card-09.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Management keuangan</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Dina Arinanda Safitri</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Rp.120.000</p>
+										<p>Rp.150.000</p>
+									</div>
+								</div>
+							</div>
+							<div class="card-item">
+								<img src="../img/card-10.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Content creator</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Ayu Mintarsih</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Rp.120.000</p>
+										<p>Rp.150.000</p>
+									</div>
+								</div>
+							</div>
+							<div class="card-item">
+								<img src="../img/card-07.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Discover Your Hidden Talents: Unleash Your Potential</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Putri Vadia Dhamayanti</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Rp.120.000</p>
+										<p>Rp.150.000</p>
+									</div>
+								</div>
+							</div>
+							<div class="card-item">
+								<img src="../img/card-08.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>online sales training</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Imroatus Sholihah</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Gratis</p>
+										<!-- <p>Rp.150.000</p> -->
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="card ms-2">
-						<img src="../img/card-03.svg" class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5>Basic Data Analyst</h5>
-							<div class="d-flex align-items-center">
-								<img src="../img/profile.svg" alt="" />
-								<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
+
+					<div class="card2 box-card sembunyi">
+						<div class="card-main">
+							<a class="card-item" href="details.html">
+								<img src="../img/card-01.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Digital Marketing</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Rp.120.000</p>
+										<p>Rp.150.000</p>
+									</div>
+								</div>
+							</a>
+							<div class="card-item">
+								<img src="../img/card-02.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Public Speaking</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Wisnusesa</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Rp.120.000</p>
+										<p>Rp.150.000</p>
+									</div>
+								</div>
+							</div>
+							<div class="card-item">
+								<img src="../img/card-03.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Basic Data Analyst</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Hilal</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Rp.120.000</p>
+										<p>Rp.150.000</p>
+									</div>
+								</div>
+							</div>
+							<div class="card-item">
+								<img src="../img/card-04.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Personal Branding</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Dandi</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Rp.120.000</p>
+										<p>Rp.150.000</p>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="card ms-2">
-						<img src="../img/card-04.svg" class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5>Personal Branding</h5>
-							<div class="d-flex align-items-center">
-								<img src="../img/profile.svg" alt="" />
-								<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
+						<div class="card-main">
+							<a class="card-item" href="details.html">
+								<img src="../img/card-01.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Digital Marketing</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Rp.120.000</p>
+										<p>Rp.150.000</p>
+									</div>
+								</div>
+							</a>
+							<div class="card-item">
+								<img src="../img/card-02.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Public Speaking</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Wisnusesa</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Rp.120.000</p>
+										<p>Rp.150.000</p>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-				</div>
-				<div class="container d-flex justify-content-between mb-3">
-					<div class="card ms-2">
-						<img src="../img/card-01.svg" class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5>Digital Marketing</h5>
-							<div class="d-flex align-items-center">
-								<img src="../img/profile.svg" alt="" />
-								<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
+							<div class="card-item">
+								<img src="../img/card-03.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Basic Data Analyst</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Hilal</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Rp.120.000</p>
+										<p>Rp.150.000</p>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-					<div class="card ms-2">
-						<img src="../img/card-02.svg" class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5>Public Speaking</h5>
-							<div class="d-flex align-items-center">
-								<img src="../img/profile.svg" alt="" />
-								<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
-							</div>
-						</div>
-					</div>
-					<div class="card ms-2">
-						<img src="../img/card-03.svg" class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5>Basic Data Analyst</h5>
-							<div class="d-flex align-items-center">
-								<img src="../img/profile.svg" alt="" />
-								<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
-							</div>
-						</div>
-					</div>
-					<div class="card ms-2">
-						<img src="../img/card-04.svg" class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5>Personal Branding</h5>
-							<div class="d-flex align-items-center">
-								<img src="../img/profile.svg" alt="" />
-								<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="container d-flex justify-content-between mb-3">
-					<div class="card ms-2">
-						<img src="../img/card-01.svg" class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5>Digital Marketing</h5>
-							<div class="d-flex align-items-center">
-								<img src="../img/profile.svg" alt="" />
-								<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
-							</div>
-						</div>
-					</div>
-					<div class="card ms-2">
-						<img src="../img/card-02.svg" class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5>Public Speaking</h5>
-							<div class="d-flex align-items-center">
-								<img src="../img/profile.svg" alt="" />
-								<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
-							</div>
-						</div>
-					</div>
-					<div class="card ms-2">
-						<img src="../img/card-03.svg" class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5>Basic Data Analyst</h5>
-							<div class="d-flex align-items-center">
-								<img src="../img/profile.svg" alt="" />
-								<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
-							</div>
-						</div>
-					</div>
-					<div class="card ms-2">
-						<img src="../img/card-04.svg" class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5>Personal Branding</h5>
-							<div class="d-flex align-items-center">
-								<img src="../img/profile.svg" alt="" />
-								<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="container d-flex justify-content-between mb-3">
-					<div class="card ms-2">
-						<img src="../img/card-01.svg" class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5>Digital Marketing</h5>
-							<div class="d-flex align-items-center">
-								<img src="../img/profile.svg" alt="" />
-								<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
-							</div>
-						</div>
-					</div>
-					<div class="card ms-2">
-						<img src="../img/card-02.svg" class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5>Public Speaking</h5>
-							<div class="d-flex align-items-center">
-								<img src="../img/profile.svg" alt="" />
-								<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
-							</div>
-						</div>
-					</div>
-					<div class="card ms-2">
-						<img src="../img/card-03.svg" class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5>Basic Data Analyst</h5>
-							<div class="d-flex align-items-center">
-								<img src="../img/profile.svg" alt="" />
-								<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
-							</div>
-						</div>
-					</div>
-					<div class="card ms-2">
-						<img src="../img/card-04.svg" class="card-img-top" alt="..." />
-						<div class="card-body">
-							<h5>Personal Branding</h5>
-							<div class="d-flex align-items-center">
-								<img src="../img/profile.svg" alt="" />
-								<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
+							<div class="card-item">
+								<img src="../img/card-04.svg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5>Personal Branding</h5>
+									<div class="mentor">
+										<img src="../img/profile.svg" alt="" />
+										<p class="ps-2 mb-0">Dandi</p>
+									</div>
+									<div class="rating">
+										<img src="../img/star-04.svg" alt="" />
+										<p>(200)</p>
+									</div>
+									<div class="price">
+										<p>Rp.120.000</p>
+										<p>Rp.150.000</p>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -237,15 +459,18 @@
 				<!-- Pagination -->
 				<nav aria-label="Page navigation example">
 					<ul class="pagination justify-content-center">
-						<li class="page-item">
+						<li data-pagination="prev" class="page-item">
 							<a class="page-link" href="#" aria-label="Previous">
 								<span aria-hidden="true">&laquo;</span>
 							</a>
 						</li>
-						<li class="page-item"><a class="page-link" href="#">1</a></li>
-						<li class="page-item"><a class="page-link" href="#">2</a></li>
-						<li class="page-item"><a class="page-link" href="#">3</a></li>
-						<li class="page-item">
+						<li data-pagination="1" class="page-item">
+							<a class="page-link" href="#">1</a>
+						</li>
+						<li data-pagination="2" class="page-item">
+							<a class="page-link" href="#">2</a>
+						</li>
+						<li data-pagination="next" class="page-item">
 							<a class="page-link" href="#" aria-label="Next">
 								<span aria-hidden="true">&raquo;</span>
 							</a>
@@ -269,5 +494,9 @@
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
 			integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
 			crossorigin="anonymous"></script>
+
+		<!-- Script -->
+		<script src="../js/kelas-online.js"></script>
+		<!-- Akhir Script -->
 	</body>
 </html>
