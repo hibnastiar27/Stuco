@@ -98,7 +98,9 @@
 				<img src="../img/ilust-modal.svg" alt="" />
 				<div class="footer">
 					<button>Mulai</button>
-					<button class="last">Nanti dulu, Jelajahi website stuco</button>
+					<button id="btnMulai" class="last">
+						Nanti dulu, Jelajahi website stuco
+					</button>
 				</div>
 			</div>
 		</div>
@@ -109,6 +111,8 @@
 			const btnRegister = document.querySelector("#btnRegister");
 			const modal = document.querySelector(".bg-modal");
 			const close = document.querySelector(".close");
+			// Link
+			const btnMulai = document.querySelector("#btnMulai");
 
 			console.log(btnRegister);
 			console.log(modal);
@@ -127,6 +131,11 @@
 					modal.style.display = "none";
 				}
 			};
+
+			// ref to beranda
+			btnMulai.addEventListener("click", () => {
+				window.location.href = "../beranda/index.html";
+			});
 		</script>
 	</body>
 </html>

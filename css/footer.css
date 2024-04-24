@@ -1,0 +1,55 @@
+/* Footer */
+footer {
+	margin-top: 32px;
+	background-color: #1b1b1b;
+	height: 302px;
+	width: 100%;
+	padding: 34px;
+}
+
+footer .container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+footer .container .atas {
+	display: flex;
+	align-items: start;
+	gap: 45px;
+}
+
+footer .container .atas .menu {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+footer .container .atas .menu a {
+	color: white;
+	text-decoration: none;
+	opacity: 80%;
+}
+
+footer .container .bawah hr {
+	border: 1px solid white;
+	opacity: 10%;
+}
+
+footer .container .bawah .body {
+	justify-content: space-between;
+	display: flex;
+	color: white;
+}
+
+footer .container .bawah .body p {
+	margin: 0px;
+	opacity: 70%;
+}
+
+footer .container .bawah .body .sosmed {
+	display: flex;
+	gap: 12px;
+}
+/* Akhir Footer */

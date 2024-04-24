@@ -71,9 +71,46 @@
 	text-decoration: line-through;
 }
 
-/* Pagination */
-.box-pagination {
+/* CTA */
+.cta {
+	border-radius: 24px;
+	width: 100%;
+	height: 380px;
+	background-image: url(../img/benner-mentoring.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 16px;
+	color: white;
 	display: flex;
+	flex-direction: column;
+	align-items: center;
 	justify-content: center;
+	gap: 24px;
+	text-align: center;
 }
-/* Akhir Pagination */
+
+.cta .head h1 {
+	font-weight: bold;
+}
+.cta .head p {
+	opacity: 70%;
+}
+
+.cta .footer button {
+	padding: 10px 34px;
+	border-radius: 100px;
+	background-color: #0575e6;
+	color: white;
+	font-weight: bold;
+	border: none;
+	margin-bottom: 12px;
+}
+
+.cta .footer p {
+	opacity: 70%;
+}
+/* Akhir CTA */
+
+.slider .box img {
+	width: 100%;
+}
