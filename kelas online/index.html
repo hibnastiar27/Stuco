@@ -20,16 +20,16 @@
 
 		<style></style>
 
-		<link rel="stylesheet" href="../css/kelas-online.css" />
-		<link rel="stylesheet" href="../css/global.css" />
-		<link rel="stylesheet" href="../css/footer.css" />
+		<link rel="stylesheet" href="../assets/css/kelas-online.css" />
+		<link rel="stylesheet" href="../assets/css/global.css" />
+		<link rel="stylesheet" href="../assets/css/footer.css" />
 	</head>
 	<body>
 		<!-- Navbar -->
 		<nav class="navbar navbar-expand-lg bg-body-tertiary">
 			<div class="container">
 				<a class="navbar-brand" href="#">
-					<img src="../img/logo-stuco.svg" alt="" />
+					<img src="../assets/img/logo-stuco.svg" alt="" />
 				</a>
 				<button
 					class="navbar-toggler"
@@ -73,7 +73,183 @@
 
 		<div class="d-flex align-items-start container mt-3 gap-2">
 			<!-- Filter -->
-			<img src="../img/filter.svg" alt="" />
+			<!-- <img src="../img/filter.svg" alt="" /> -->
+
+			<div class="accordion">
+				<div class="heading active">Ratting</div>
+				<div class="contents" style="display: block">
+					<form class="body d-flex flex-column">
+						<div
+							class="bintang-4 d-flex justify-content-start align-items-center">
+							<input type="checkbox" name="4" id="4" />
+							<label
+								class="d-flex justify-content-between w-100 align-items-center"
+								for="4">
+								<img src="../assets/img/bintang-4.svg" alt="" />
+								<p class="m-0">4.5 & up (5.8K)</p>
+							</label>
+						</div>
+
+						<div
+							class="bintang-3 d-flex justify-content-start align-items-center">
+							<input type="checkbox" name="3" id="3" />
+							<label
+								class="d-flex justify-content-between w-100 align-items-center"
+								for="3">
+								<img src="../assets/img/bintang-3.svg" alt="" />
+								<p class="m-0">3.5 & up (1.2K))</p>
+							</label>
+						</div>
+
+						<div
+							class="bintang-2 d-flex justify-content-start align-items-center">
+							<input type="checkbox" name="2" id="2" />
+							<label
+								class="d-flex justify-content-between w-100 align-items-center"
+								for="2">
+								<img src="../assets/img/bintang-2.svg" alt="" />
+								<p class="m-0">3.0 & up (867)</p>
+							</label>
+						</div>
+					</form>
+				</div>
+
+				<div class="heading active">Video Duration</div>
+				<div class="contents" style="display: block">
+					<form class="body d-flex flex-column">
+						<div
+							class="bintang-4 d-flex justify-content-start align-items-center gap-1">
+							<input type="checkbox" name="4" id="4" />
+							<label
+								class="d-flex justify-content-between w-100 align-items-center"
+								for="4">
+								<p class="m-0">0-2 Hours (9.4K)</p>
+							</label>
+						</div>
+
+						<div
+							class="bintang-3 d-flex justify-content-start align-items-center gap-1">
+							<input type="checkbox" name="3" id="3" />
+							<label
+								class="d-flex justify-content-between w-100 align-items-center"
+								for="3">
+								<p class="m-0">3-5 Hours (4.1K)</p>
+							</label>
+						</div>
+
+						<div
+							class="bintang-2 d-flex justify-content-start align-items-center gap-1">
+							<input type="checkbox" name="2" id="2" />
+							<label
+								class="d-flex justify-content-between w-100 align-items-center"
+								for="2">
+								<p class="m-0">6-12 Hours (3.8K)</p>
+							</label>
+						</div>
+
+						<div
+							class="bintang-2 d-flex justify-content-start align-items-center gap-1">
+							<input type="checkbox" name="2" id="2" />
+							<label
+								class="d-flex justify-content-between w-100 align-items-center"
+								for="2">
+								<p class="m-0">12+ Hours (1K)</p>
+							</label>
+						</div>
+					</form>
+				</div>
+
+				<div class="heading active">Categories</div>
+				<div class="contents" style="display: block">
+					<form class="body d-flex flex-column">
+						<div
+							class="bintang-4 d-flex justify-content-start align-items-center gap-1">
+							<input type="checkbox" name="4" id="4" />
+							<label
+								class="d-flex justify-content-between w-100 align-items-center"
+								for="4">
+								<p class="m-0">Berbayar</p>
+							</label>
+						</div>
+
+						<div
+							class="bintang-3 d-flex justify-content-start align-items-center gap-1">
+							<input type="checkbox" name="3" id="3" />
+							<label
+								class="d-flex justify-content-between w-100 align-items-center"
+								for="3">
+								<p class="m-0">Gratis</p>
+							</label>
+						</div>
+
+						<div
+							class="bintang-2 d-flex justify-content-start align-items-center gap-1">
+							<input type="checkbox" name="2" id="2" />
+							<label
+								class="d-flex justify-content-between w-100 align-items-center"
+								for="2">
+								<p class="m-0">Bootcamp</p>
+							</label>
+						</div>
+
+						<div
+							class="bintang-2 d-flex justify-content-start align-items-center gap-1">
+							<input type="checkbox" name="2" id="2" />
+							<label
+								class="d-flex justify-content-between w-100 align-items-center"
+								for="2">
+								<p class="m-0">Recoding Webinar</p>
+							</label>
+						</div>
+					</form>
+				</div>
+
+				<div class="heading active">Level</div>
+				<div class="contents" style="display: block">
+					<form class="body d-flex flex-column">
+						<div
+							class="bintang-4 d-flex justify-content-start align-items-center gap-1">
+							<input type="checkbox" name="4" id="4" />
+							<label
+								class="d-flex justify-content-between w-100 align-items-center"
+								for="4">
+								<p class="m-0">All Levels</p>
+							</label>
+						</div>
+
+						<div
+							class="bintang-3 d-flex justify-content-start align-items-center gap-1">
+							<input type="checkbox" name="3" id="3" />
+							<label
+								class="d-flex justify-content-between w-100 align-items-center"
+								for="3">
+								<p class="m-0">Beginner</p>
+							</label>
+						</div>
+
+						<div
+							class="bintang-2 d-flex justify-content-start align-items-center gap-1">
+							<input type="checkbox" name="2" id="2" />
+							<label
+								class="d-flex justify-content-between w-100 align-items-center"
+								for="2">
+								<p class="m-0">Intermediate</p>
+							</label>
+						</div>
+
+						<div
+							class="bintang-2 d-flex justify-content-start align-items-center gap-1">
+							<input type="checkbox" name="2" id="2" />
+							<label
+								class="d-flex justify-content-between w-100 align-items-center"
+								for="2">
+								<p class="m-0">Advanced</p>
+							</label>
+						</div>
+					</form>
+				</div>
+			</div>
+
 			<!-- Akhir Filter -->
 
 			<!-- List-card -->
@@ -82,15 +258,18 @@
 					<div class="card1 box-card">
 						<div class="card-main">
 							<a class="card-item" href="details.html">
-								<img src="../img/card-01.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-01.svg"
+									class="card-img-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>Digital Marketing</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -100,15 +279,18 @@
 								</div>
 							</a>
 							<div class="card-item">
-								<img src="../img/card-02.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-02.svg"
+									class="card-img-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>Public Speaking</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Wisnusesa</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -118,15 +300,18 @@
 								</div>
 							</div>
 							<div class="card-item">
-								<img src="../img/card-03.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-03.svg"
+									class="card-img-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>Basic Data Analyst</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Hilal</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -136,15 +321,18 @@
 								</div>
 							</div>
 							<div class="card-item">
-								<img src="../img/card-04.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-04.svg"
+									class="card-img-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>Personal Branding</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Dandi</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -157,15 +345,18 @@
 
 						<div class="card-main">
 							<div class="card-item" href="details.html">
-								<img src="../img/card-05.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-05.svg"
+									class="card-assets/-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>Graphic Design Essentials</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Dina Arinanda Safitri</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -175,15 +366,18 @@
 								</div>
 							</div>
 							<div class="card-item">
-								<img src="../img/card-06.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-06.svg"
+									class="card-img-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>Social Media Marketing Strategies</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Ayu Mintarsih</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -193,15 +387,18 @@
 								</div>
 							</div>
 							<div class="card-item">
-								<img src="../img/card-07.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-07.svg"
+									class="card-img-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>Discover Your Hidden Talents: Unleash Your Potential</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Putri Vadia Dhamayanti</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -211,15 +408,18 @@
 								</div>
 							</div>
 							<div class="card-item">
-								<img src="../img/card-08.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-08.svg"
+									class="card-img-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>online sales training</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Imroatus Sholihah</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -232,15 +432,18 @@
 
 						<div class="card-main">
 							<div class="card-item" href="details.html">
-								<img src="../img/card-09.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-09.svg"
+									class="card-img-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>Management keuangan</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Dina Arinanda Safitri</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -250,15 +453,18 @@
 								</div>
 							</div>
 							<div class="card-item">
-								<img src="../img/card-10.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-10.svg"
+									class="card-img-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>Content creator</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Ayu Mintarsih</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -268,15 +474,18 @@
 								</div>
 							</div>
 							<div class="card-item">
-								<img src="../img/card-07.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-07.svg"
+									class="card-img-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>Discover Your Hidden Talents: Unleash Your Potential</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Putri Vadia Dhamayanti</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -286,15 +495,18 @@
 								</div>
 							</div>
 							<div class="card-item">
-								<img src="../img/card-08.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-08.svg"
+									class="card-img-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>online sales training</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Imroatus Sholihah</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -309,15 +521,18 @@
 					<div class="card2 box-card">
 						<div class="card-main">
 							<a class="card-item" href="details.html">
-								<img src="../img/card-01.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-01.svg"
+									class="card-img-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>Digital Marketing</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -327,15 +542,18 @@
 								</div>
 							</a>
 							<div class="card-item">
-								<img src="../img/card-02.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-02.svg"
+									class="card-img-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>Public Speaking</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Wisnusesa</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -345,15 +563,18 @@
 								</div>
 							</div>
 							<div class="card-item">
-								<img src="../img/card-03.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-03.svg"
+									class="card-img-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>Basic Data Analyst</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Hilal</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -363,15 +584,18 @@
 								</div>
 							</div>
 							<div class="card-item">
-								<img src="../img/card-04.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-04.svg"
+									class="card-img-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>Personal Branding</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Dandi</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -383,15 +607,18 @@
 						</div>
 						<div class="card-main">
 							<a class="card-item" href="details.html">
-								<img src="../img/card-01.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-01.svg"
+									class="card-img-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>Digital Marketing</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Nur Aria Hibnastiar</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -401,15 +628,18 @@
 								</div>
 							</a>
 							<div class="card-item">
-								<img src="../img/card-02.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-02.svg"
+									class="card-img-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>Public Speaking</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Wisnusesa</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -419,15 +649,18 @@
 								</div>
 							</div>
 							<div class="card-item">
-								<img src="../img/card-03.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-03.svg"
+									class="card-img-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>Basic Data Analyst</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Hilal</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -437,15 +670,18 @@
 								</div>
 							</div>
 							<div class="card-item">
-								<img src="../img/card-04.svg" class="card-img-top" alt="..." />
+								<img
+									src="../assets/img/card-04.svg"
+									class="card-img-top"
+									alt="..." />
 								<div class="card-body">
 									<h5>Personal Branding</h5>
 									<div class="mentor">
-										<img src="../img/profile.svg" alt="" />
+										<img src="../assets/img/profile.svg" alt="" />
 										<p class="ps-2 mb-0">Dandi</p>
 									</div>
 									<div class="rating">
-										<img src="../img/star-04.svg" alt="" />
+										<img src="../assets/img/star-04.svg" alt="" />
 										<p>(200)</p>
 									</div>
 									<div class="price">
@@ -459,37 +695,9 @@
 				</div>
 
 				<!-- Pagination -->
-
 				<div class="box-pagination">
 					<div id="pagination-container"></div>
 				</div>
-
-				<!-- <div class="pagination-course col-6 col-sm-3">
-					<div class="content-pagination align-self-center">
-						<ul class="listPage"></ul>
-					</div>
-				</div> -->
-
-				<!-- <nav aria-label="Page navigation example">
-					<ul class="pagination justify-content-center">
-						<li data-pagination="prev" class="page-item">
-							<a class="page-link" href="#" aria-label="Previous">
-								<span aria-hidden="true">&laquo;</span>
-							</a>
-						</li>
-						<li data-pagination="1" class="page-item">
-							<a class="page-link" href="#">1</a>
-						</li>
-						<li data-pagination="2" class="page-item">
-							<a class="page-link" href="#">2</a>
-						</li>
-						<li data-pagination="next" class="page-item">
-							<a class="page-link" href="#" aria-label="Next">
-								<span aria-hidden="true">&raquo;</span>
-							</a>
-						</li>
-					</ul>
-				</nav> -->
 				<!-- Akhir Pagination -->
 			</div>
 			<!-- Akhir List-card -->
@@ -499,7 +707,7 @@
 		<footer>
 			<div class="container">
 				<div class="atas">
-					<img src="../img/logo-stuco.svg" alt="" />
+					<img src="../assets/img/logo-stuco.svg" alt="" />
 					<div class="menu">
 						<a href="../beranda/index.html">Beranda</a>
 						<a href="../kelas online/index.html">Kelas Online</a>
@@ -515,9 +723,9 @@
 					<div class="body">
 						<p>Copyright ©STUCO 2024. All Rights Reserved</p>
 						<div class="sosmed">
-							<img src="../img/Social/Facebook.png" alt="" />
-							<img src="../img/Social/Instagram.png" alt="" />
-							<img src="../img/Social/Twitter.png" alt="" />
+							<img src="../assets/img/Social/Facebook.png" alt="" />
+							<img src="../assets/img/Social/Instagram.png" alt="" />
+							<img src="../assets/img/Social/Twitter.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -540,7 +748,8 @@
 
 		<!-- Script -->
 		<!-- <script src="../js/kelas-online.js"></script> -->
-		<script src="../js/pagination.js"></script>
+		<script src="../assets/js/pagination.js"></script>
+		<script src="../assets/js/accordion.js"></script>
 		<!-- Akhir Script -->
 	</body>
 </html>
